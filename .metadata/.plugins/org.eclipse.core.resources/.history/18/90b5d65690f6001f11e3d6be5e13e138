@@ -1,0 +1,22 @@
+package baekjoon;
+import java.util.*;
+public class B2_5 {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int hour=sc.nextInt();
+		int min=sc.nextInt();
+		int rehour;
+		int remin;
+		
+		if(min-45>0) {
+			System.out.println(hour+" "+(min-45));
+			
+		}if(min-45<0) {
+			rehour=hour-1;
+			
+			remin=60-min;
+			System.out.println(rehour+" "+min);
+		
+		}
+	}
+}
