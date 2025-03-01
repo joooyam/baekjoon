@@ -10,8 +10,8 @@ public class B2_5 {
 		
 		
 		if(hour==0)
-		{	 	
-			if (min-45>=0) 
+		{		
+			if (min-45>=0)
 			{
 				System.out.println("0 " + (min-45));
 			}
