@@ -1,0 +1,15 @@
+package baekjoon3;
+import java.util.*;
+public class B3_3 {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		int result=0; //0으로 초기화
+		int n=sc.nextInt();
+		for(int i=1; i<=n; i++) {
+			
+			result=result+i;
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+package baekjoon3;
+import java.util.*;
+public class B3_3 {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int b;
+		int a=sc.nextInt();
+		for(int i=1; i<=a; i++) {
+			int st=sc.nextInt();
+			System.out.print(st=i+1);
+			
+		}
+
+	}
+
+}
