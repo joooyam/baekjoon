@@ -13,10 +13,13 @@ public class B3_10 {
          for (int a = i - 1; a >= 1; a--) {
             System.out.print("-");
          }
+         
          for (int b = i; b <= 5; b++) {
             System.out.print("*");
+            
          }
          System.out.println();
+         
       }
 
    }

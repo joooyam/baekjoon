@@ -2,4 +2,3 @@ INDEX VERSION 1.134+C:\java_student\study\.metadata\.plugins\org.eclipse.jdt.cor
 1865797976.index
 2250130128.index
 2284497263.index
-616840867.index
